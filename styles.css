@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+#background {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#textGui {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: ivory;
+    font-size: larger;
+    font-family: arial;
+    bottom: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 1rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid black;
+    border-radius: 1rem;
+    cursor: default;
+}
